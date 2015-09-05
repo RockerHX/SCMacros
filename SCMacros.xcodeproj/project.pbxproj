@@ -35,12 +35,13 @@
 		48149AD81B9B4105009F01DB /* SCCommonConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCommonConstants.m; sourceTree = "<group>"; };
 		48149AD91B9B4105009F01DB /* SCCommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCommonMacros.h; sourceTree = "<group>"; };
 		48149ADA1B9B4105009F01DB /* SCDebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDebugMacros.h; sourceTree = "<group>"; };
-		48149ADB1B9B4105009F01DB /* SCDirectoryMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDirectoryMacros.h; sourceTree = "<group>"; };
+		48149ADB1B9B4105009F01DB /* SCFileMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFileMacros.h; sourceTree = "<group>"; };
 		48149ADC1B9B4105009F01DB /* SCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMacros.h; sourceTree = "<group>"; };
 		48149ADD1B9B4105009F01DB /* SCSizeMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSizeMacros.h; sourceTree = "<group>"; };
 		48149ADE1B9B4105009F01DB /* SCSizeMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSizeMacros.m; sourceTree = "<group>"; };
 		48149ADF1B9B4105009F01DB /* SCVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCVersion.h; sourceTree = "<group>"; };
 		48149AE01B9B4105009F01DB /* SCVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCVersion.m; sourceTree = "<group>"; };
+		486E64B41B9B68790043878A /* SCMathMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMathMacros.h; sourceTree = "<group>"; };
 		48C33ECE1B9B3EBA00D79B1B /* SCMacros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCMacros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C33ED21B9B3EBA00D79B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48C33ED31B9B3EBA00D79B1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,7 +82,8 @@
 				48149AD91B9B4105009F01DB /* SCCommonMacros.h */,
 				48149AD61B9B4105009F01DB /* SCColorMacros.h */,
 				48149ADA1B9B4105009F01DB /* SCDebugMacros.h */,
-				48149ADB1B9B4105009F01DB /* SCDirectoryMacros.h */,
+				48149ADB1B9B4105009F01DB /* SCFileMacros.h */,
+				486E64B41B9B68790043878A /* SCMathMacros.h */,
 				48149AD71B9B4105009F01DB /* SCCommonConstants.h */,
 				48149AD81B9B4105009F01DB /* SCCommonConstants.m */,
 				48149ADD1B9B4105009F01DB /* SCSizeMacros.h */,

@@ -22,7 +22,7 @@
 #define className(classInstance)    NSStringFromClass([classInstance class])
 #define labelSystemFont(size)       [UIFont systemFontOfSize:size]
 
-#define WeakSelf(weakSelf)         __weak __typeof(&*self)weakSelf = self
+#define WeakSelf(weakSelf)          __weak __typeof(&*self)weakSelf = self
 
 
 #endif
