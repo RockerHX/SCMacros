@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48149AE11B9B4105009F01DB /* SCCommonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 48149AD81B9B4105009F01DB /* SCCommonConstants.m */; };
+		48149AE21B9B4105009F01DB /* SCSizeMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 48149ADE1B9B4105009F01DB /* SCSizeMacros.m */; };
+		48149AE31B9B4105009F01DB /* SCVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 48149AE01B9B4105009F01DB /* SCVersion.m */; };
 		48C33ED41B9B3EBA00D79B1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C33ED31B9B3EBA00D79B1B /* main.m */; };
 		48C33ED71B9B3EBA00D79B1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C33ED61B9B3EBA00D79B1B /* AppDelegate.m */; };
 		48C33EDA1B9B3EBA00D79B1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C33ED91B9B3EBA00D79B1B /* ViewController.m */; };
@@ -27,6 +30,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48149AD61B9B4105009F01DB /* SCColorMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCColorMacros.h; sourceTree = "<group>"; };
+		48149AD71B9B4105009F01DB /* SCCommonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCommonConstants.h; sourceTree = "<group>"; };
+		48149AD81B9B4105009F01DB /* SCCommonConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCommonConstants.m; sourceTree = "<group>"; };
+		48149AD91B9B4105009F01DB /* SCCommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCommonMacros.h; sourceTree = "<group>"; };
+		48149ADA1B9B4105009F01DB /* SCDebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDebugMacros.h; sourceTree = "<group>"; };
+		48149ADB1B9B4105009F01DB /* SCDirectoryMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDirectoryMacros.h; sourceTree = "<group>"; };
+		48149ADC1B9B4105009F01DB /* SCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMacros.h; sourceTree = "<group>"; };
+		48149ADD1B9B4105009F01DB /* SCSizeMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSizeMacros.h; sourceTree = "<group>"; };
+		48149ADE1B9B4105009F01DB /* SCSizeMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSizeMacros.m; sourceTree = "<group>"; };
+		48149ADF1B9B4105009F01DB /* SCVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCVersion.h; sourceTree = "<group>"; };
+		48149AE01B9B4105009F01DB /* SCVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCVersion.m; sourceTree = "<group>"; };
 		48C33ECE1B9B3EBA00D79B1B /* SCMacros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCMacros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C33ED21B9B3EBA00D79B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48C33ED31B9B3EBA00D79B1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +74,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48149AD51B9B4105009F01DB /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				48149ADC1B9B4105009F01DB /* SCMacros.h */,
+				48149AD91B9B4105009F01DB /* SCCommonMacros.h */,
+				48149AD61B9B4105009F01DB /* SCColorMacros.h */,
+				48149ADA1B9B4105009F01DB /* SCDebugMacros.h */,
+				48149ADB1B9B4105009F01DB /* SCDirectoryMacros.h */,
+				48149AD71B9B4105009F01DB /* SCCommonConstants.h */,
+				48149AD81B9B4105009F01DB /* SCCommonConstants.m */,
+				48149ADD1B9B4105009F01DB /* SCSizeMacros.h */,
+				48149ADE1B9B4105009F01DB /* SCSizeMacros.m */,
+				48149ADF1B9B4105009F01DB /* SCVersion.h */,
+				48149AE01B9B4105009F01DB /* SCVersion.m */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
 		48C33EC51B9B3EBA00D79B1B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,7 @@
 		48C33ED01B9B3EBA00D79B1B /* SCMacros */ = {
 			isa = PBXGroup;
 			children = (
+				48149AD51B9B4105009F01DB /* Macros */,
 				48C33ED51B9B3EBA00D79B1B /* AppDelegate.h */,
 				48C33ED61B9B3EBA00D79B1B /* AppDelegate.m */,
 				48C33ED81B9B3EBA00D79B1B /* ViewController.h */,
@@ -219,8 +252,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48149AE31B9B4105009F01DB /* SCVersion.m in Sources */,
 				48C33EDA1B9B3EBA00D79B1B /* ViewController.m in Sources */,
 				48C33ED71B9B3EBA00D79B1B /* AppDelegate.m in Sources */,
+				48149AE21B9B4105009F01DB /* SCSizeMacros.m in Sources */,
+				48149AE11B9B4105009F01DB /* SCCommonConstants.m in Sources */,
 				48C33ED41B9B3EBA00D79B1B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +452,7 @@
 				48C33EF31B9B3EBA00D79B1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48C33EF41B9B3EBA00D79B1B /* Build configuration list for PBXNativeTarget "SCMacrosTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +461,7 @@
 				48C33EF61B9B3EBA00D79B1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
